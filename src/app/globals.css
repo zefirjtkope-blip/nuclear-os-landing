@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .gradient-hero {
+    background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(249, 115, 22, 0.12) 0%, transparent 70%);
+  }
+
+  .gradient-ai {
+    background: radial-gradient(ellipse 60% 80% at 80% 50%, rgba(249, 115, 22, 0.08) 0%, transparent 60%);
+  }
+
+  .gradient-cta {
+    background: radial-gradient(ellipse 90% 100% at 50% 50%, rgba(249, 115, 22, 0.15) 0%, transparent 70%);
+  }
+}
