@@ -1173,7 +1173,7 @@ function Footer({ t }: { t: T }) {
             <div className="text-white font-bold text-lg mb-3">
               <span className="text-orange-500">NUCLEAR</span> OS
             </div>
-            <p className="text-gray-600 text-sm leading-relaxed">©2025 Nuclear OS<br />Чорноморськ, Україна</p>
+            <p className="text-gray-600 text-sm leading-relaxed">©2025 Nuclear OS</p>
           </div>
           <div>
             <h4 className="text-gray-400 font-medium text-sm mb-4">{t.footer_product}</h4>
@@ -1201,7 +1201,7 @@ function Footer({ t }: { t: T }) {
         </div>
         <div className="border-t border-[#1e1e1e] pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <span className="text-gray-700 text-xs">©2025 Nuclear OS. All rights reserved.</span>
-          <span className="text-gray-700 text-xs">Made in Ukraine 🇺🇦</span>
+          <span className="text-gray-700 text-xs">nuclear-os.com</span>
         </div>
       </div>
     </footer>
